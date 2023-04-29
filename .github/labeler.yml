@@ -1,7 +1,0 @@
-"sops secrets":
-  - ".sops.yaml"
-  - "**/*/*.enc.json"
-  - "**/*/secrets.yaml"
-
-"terraform":
-  - terraform/**/*
