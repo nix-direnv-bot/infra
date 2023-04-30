@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://nix-community.org/security/</loc>
+         <lastmod>1980-01-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://nix-community.org/services/</loc>
          <lastmod>1980-01-01</lastmod>
          <changefreq>daily</changefreq>
