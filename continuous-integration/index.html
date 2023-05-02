@@ -8,20 +8,20 @@
       
       
       
-        <link rel="canonical" href="https://nix-community.org/contact/">
+        <link rel="canonical" href="https://nix-community.org/continuous-integration/">
       
       
-        <link rel="prev" href="../administrators/">
+        <link rel="prev" href="../sponsors/">
       
       
-        <link rel="next" href="../security/">
+        <link rel="next" href="../community-builder/">
       
       <link rel="icon" href="../nix-community-logo.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.15">
     
     
       
-        <title>Contact - Nix Community</title>
+        <title>Continuous integration - Nix Community</title>
       
     
     
@@ -96,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Contact
+              Continuous integration
             
           </span>
         </div>
@@ -235,16 +235,16 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-        
-      
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
       
       
       
@@ -253,7 +253,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           Services
@@ -264,11 +264,19 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../continuous-integration/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Continuous integration
       </a>
+      
     </li>
   
 
@@ -356,16 +364,16 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
       
       
       
@@ -374,7 +382,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
           About
@@ -413,19 +421,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../contact/" class="md-nav__link">
         Contact
       </a>
-      
     </li>
   
 
@@ -466,7 +466,7 @@
                   
 
   
-    <a href="https://github.com/nix-community/infra/edit/master/docs/contact.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/nix-community/infra/edit/master/docs/continuous-integration.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -474,12 +474,18 @@
   
 
 
-  <h1>Contact</h1>
+  <h1>Continuous integration</h1>
 
-<p>For urgent matters, create an issue here: <a href="https://github.com/nix-community/infra/issues/new">New Issue</a>.</p>
-<p>For repo additions, service requests and general conversation about governance and direction of the project, use the <a href="https://github.com/orgs/nix-community/discussions">Discussion forum</a>.</p>
-<p>For casual chat, come join us in the <a href="https://matrix.to/#/#nix-community:nixos.org">nix-community</a> room.</p>
-<p>The admins can also be contacted via <a href="mailto:admin@nix-community.org">admin@nix-community.org</a>, email sent to this address will be forwarded to all of the admins.</p>
+<p>We provide <code>x86_64-linux</code> and <code>aarch64-linux</code> CI via these systems:</p>
+<h4 id="hercules">Hercules</h4>
+<p><a href="https://hercules-ci.com/github/nix-community">https://hercules-ci.com/github/nix-community</a></p>
+<p>To enable hercules builds go to <code>https://hercules-ci.com/github/nix-community/$REPO</code> and click "Build this repository".</p>
+<h4 id="hydra">Hydra</h4>
+<p><a href="https://hydra.nix-community.org">https://hydra.nix-community.org</a></p>
+<p>To enable hydra builds add a new project in this <a href="https://github.com/nix-community/infra/blob/master/terraform/hydra-projects.tf">file</a>.</p>
+<h4 id="cache">Cache</h4>
+<p><a href="https://nix-community.cachix.org/">https://nix-community.cachix.org/</a></p>
+<p>All of the above CI builds are pushed to the cache.</p>
 
 
 
