@@ -22,7 +22,7 @@
                 export TF_TOKEN_app_terraform_io="$(readSecretString tf-secrets .TF_TOKEN_app_terraform_io)"
 
                 set -eux
-                pushd terraform
+                pushd terraform/nix-community
                 terraform init
                 terraform validate
                 terraform apply -auto-approve
