@@ -476,7 +476,7 @@
 <p><code>build01.nix-community.org</code></p>
 <p>We provide an <code>x86_64-linux</code> build machine as a public remote builder for the nix community, this machine also has an <code>aarch64-linux</code> machine configured as its own remote builder.</p>
 <h4 id="access">Access</h4>
-<p>If you want access read the security guide lines on <a href="https://github.com/nix-community/aarch64-build-box">aarch64-build-box</a>. Than add your username to <a href="https://github.com/nix-community/infra/blob/master/roles/builder/users.nix"><code>roles/builder/users.nix</code></a>. Don't keep any important data in your home! We will regularly delete <code>/home</code> without further notice.</p>
+<p>If you want access read the security guide lines on <a href="https://github.com/nix-community/aarch64-build-box">aarch64-build-box</a>. Than add your username to <a href="https://github.com/nix-community/infra/blob/master/modules/nixos/builder/users.nix"><code>builder/users.nix</code></a>. Don't keep any important data in your home! We will regularly delete <code>/home</code> without further notice.</p>
 <h4 id="using-your-nixos-home-manager-configuration-on-the-hosts">Using your NixOS home-manager configuration on the hosts</h4>
 <p>If you happen to have your NixOS &amp; home-manager configurations intertwined but you'd like your familiar environment on our infrastructure you can evaluate <code>pkgs.writeShellScript "hm-activate" config.systemd.services.home-manager-&lt;yourusername&gt;.serviceConfig.ExecStart</code> from your NixOS configuration, and send this derivation to be realized remotely: (in case you aren't a Nix trusted user)</p>
 <pre><code class="language-console"># somehow get the .drv of the above expression into $path
