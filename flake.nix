@@ -161,6 +161,7 @@
           hydra = ./modules/nixos/hydra.nix;
           nur-update = ./modules/nixos/nur-update.nix;
           raid = ./modules/nixos/raid.nix;
+          remote-builder-build01 = modules/nixos/remote-builder/build01.nix;
           remote-builder-build04 = ./modules/nixos/remote-builder/build04.nix;
           remote-builder-darwin02 = ./modules/nixos/remote-builder/darwin02.nix;
           remote-builder-darwin03 = ./modules/nixos/remote-builder/darwin03.nix;
