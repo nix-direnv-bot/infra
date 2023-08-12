@@ -11,6 +11,7 @@ lib.mapAttrsToList
   })
   ((lib.genAttrs [
     "borgbackup-job-github-org.service"
+    "borgbackup-job-grafana-postgresql.service"
     "borgbackup-job-nixpkgs-update.service"
   ]
     (name: {
