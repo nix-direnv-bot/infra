@@ -36,6 +36,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://nix-community.org/lemmy/</loc>
+         <lastmod>1980-01-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nix-community.org/monitoring/</loc>
+         <lastmod>1980-01-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://nix-community.org/nur-update/</loc>
          <lastmod>1980-01-01</lastmod>
          <changefreq>daily</changefreq>
